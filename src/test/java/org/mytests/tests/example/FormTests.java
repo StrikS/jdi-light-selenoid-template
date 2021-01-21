@@ -17,6 +17,7 @@ public class FormTests extends TestsInit {
         userIcon.click();
         loginForm.loginAs(DEFAULT_USER);
         homePage.checkOpened();
+        homePage.throw_exception_step();
     }
 
     @Test
